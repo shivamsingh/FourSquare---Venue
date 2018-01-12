@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/none"
+      android:title="Default"
+      app:showAsAction="ifRoom|withText"/>
+  <item
+      android:id="@+id/distance"
+      android:title="Distance"
+      app:showAsAction="ifRoom|withText"/>
+  <item
+      android:id="@+id/rating"
+      android:title="Rating"
+      app:showAsAction="ifRoom|withText"/>
+</menu>

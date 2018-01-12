@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">Foursquare</string>
+  <string name="menu_venues_refresh">Refresh</string>
+  <string name="menu_venues_sort_by">Sort By</string>
+</resources>

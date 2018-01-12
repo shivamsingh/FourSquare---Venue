@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+  <ImageView
+      android:id="@+id/category_pic"
+      android:layout_width="44dp"
+      android:layout_height="44dp"
+      android:layout_marginRight="8dp"
+      />
+
+  <android.support.v7.widget.AppCompatTextView
+      android:id="@+id/name"
+      android:layout_marginBottom="10dp"
+      android:layout_toRightOf="@id/category_pic"
+      android:ellipsize="end"
+      android:maxLines="4"
+      android:text="Third Street Promenade Third Street Promenade Third Street Promenade"
+      style="@style/PrimaryTextMedium"
+      />
+
+  <android.support.v7.widget.AppCompatTextView
+      android:id="@+id/distance"
+      android:layout_below="@id/name"
+      android:layout_toRightOf="@id/category_pic"
+      android:text="231"
+      android:textStyle="bold"
+      style="@style/SecondaryTextMedium"
+      />
+
+  <android.support.v7.widget.AppCompatTextView
+      android:id="@+id/rating"
+      android:layout_below="@id/name"
+      android:layout_marginLeft="10dp"
+      android:layout_toRightOf="@id/distance"
+      android:text="9.4"
+      android:textStyle="bold"
+      style="@style/SecondaryTextMedium"
+      />
+</RelativeLayout>

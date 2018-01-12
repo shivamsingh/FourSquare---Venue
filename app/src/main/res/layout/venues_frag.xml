@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+  <android.support.v7.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="@color/colorPrimary"
+      app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+      android:theme="@style/ToolbarDarkOverflow"
+      app:titleTextColor="@color/white"
+      />
+  <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/refresh"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#222222"
+      >
+    <com.foursquare.ui.widget.AutofitGridRecyclerView
+        android:id="@+id/venues"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:columnWidth="160dp"
+        />
+  </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
